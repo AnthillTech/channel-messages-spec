@@ -1,8 +1,8 @@
 Open repository of channel service definitions
 
 #Introduction
-Anthill Technology provides Internet of Things hosting services. Our on-line [followit24.com](http://www.followit24.com) service facilitates connectivity between web-attached devices and provides secure environment for running your own server-side IoT applications.  
-Although the devices communicating through our secure channels infrastructure may use any format of data they want, there is a clear long term benefit to the end-users if as many devices as possible used the same language to talk to each other. The benefit is two-fold:  
+Anthill Technology has developed an open-source communication server software, which facilitates information exchange between web-connected electronic devices. The software, code-named mewa, is available [here](https://github.com/AnthillTech/mewa). Mewa is also the engine of our commercial Internet of Things hosting services ([followit24.com](http://www.followit24.com)).  
+Although the devices communicating through mewa's secure channels infrastructure may use any format of data, there is a clear long-term benefit to the end-users if devices use common language to talk to each other. The benefit is two-fold:  
 1. Devices from different vendors could work together in a single channel offering optimum value to the end-user,  
 2. Events from the multitude of private channels could be selectively published by the channel owners and be picked up by 3rd party service providers, thus giving rise to a whole new ecosystem of IoT services.  
 
