@@ -1,7 +1,4 @@
-fi24.org-IoT-services
-=====================
-
-Public repository of Internet of Things service definitions being part of the fi24.org initiative
+Open repository of channel service definitions
 
 #Introduction
 Anthill Technology provides Internet of Things hosting services. Our on-line [followit24.com](http://www.followit24.com) service facilitates connectivity between web-attached devices and provides secure environment for running your own server-side IoT applications.  
