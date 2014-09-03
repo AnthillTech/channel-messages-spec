@@ -9,7 +9,7 @@ Although the devices communicating through our secure channels infrastructure ma
 1. Devices from different vendors could work together in a single channel offering optimum value to the end-user,  
 2. Events from the multitude of private channels could be selectively published by the channel owners and be picked up by 3rd party service providers, thus giving rise to a whole new ecosystem of IoT services.  
 
-We believe that the publish-subscribe service model is an appropriate approach to loose collaboration of devices performing many different simple functions (sensors, actuators, etc). Therefore the specifications below takes the service model as its base.   
+We believe that the publish-subscribe service model is an appropriate approach to loose collaboration of devices performing many different simple functions (sensors, actuators, etc). Therefore the specification below takes the service model as its base.   
 
 We appreciate the power of joint community development, so we are putting the following definitions into public domain under the BSD license and we would like to invite everybody to use them and contribute to further growth of the standardized service portfolio.  
 We will just manage this project for you, but you know your needs and your industries best. If we work together, soon there will be a service for everything!
