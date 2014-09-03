@@ -33,20 +33,20 @@ While there may be hundreds of different services defined, in order for them to 
         <th>Description</th>
     </tr>
     <tr>
-        <td><a href="srvdefs/discovery.md">Discovery</a></td>
+        <td><a href="spec/discovery.md">Discovery</a></td>
         <td>This service is strongly recommended to be supported by all devices. It allows other devices to obtain information about types services provided by their peers connected to the same channel.</td>
     </tr>
     <tr>
-        <td><a href="spec/lastevent">Lastevent</a></td>
+        <td><a href="spec/lastevent.md">Lastevent</a></td>
         <td>Returns details of last event of given type and/or sent from given device. Used by devices that re-connect to the channel, possibly having missed events during off-line time. Also useful for finding out current state of devices that send periodic updates </td>
     
     </tr>
     <tr>
-        <td><a href="spec/light">Light</a></td>
+        <td><a href="spec/light.md">Light</a></td>
         <td>Remotely controlled on-off light source</td> 
     </tr>
     <tr>
-        <td><a href="spec/switch">Switch</a></td>
+        <td><a href="spec/switch.md">Switch</a></td>
         <td>Manual on-off switch. Generates events on state change.</td>
     </tr>
 
@@ -62,35 +62,35 @@ While there may be hundreds of different services defined, in order for them to 
         <th>Description</th>
     </tr>
     <tr>
-        <td><a href="spec/dimmer">Dimmer</a></td>
+        <td><a href="spec/dimmer.md">Dimmer</a></td>
         <td>Light dimmer service </td>
     
     </tr>
     <tr>
-        <td><a href="spec/eventlog">Eventlog</a></td>
+        <td><a href="spec/eventlog.md">Eventlog</a></td>
         <td>Event logging and retrieval of missed events</td>
     
     </tr>
     <tr>
-        <td><a href="spec/heartbeat">Heartbeat</a></td>
+        <td><a href="spec/heartbeat.md">Heartbeat</a></td>
         <td>Implemented by devices which want to periodically send Tick event.</td>
     </tr>
     <tr>
-        <td><a href="spec/image">Image</a></td>
+        <td><a href="spec/image.md">Image</a></td>
         <td>Implemented by cameras which can provide still image.</td>
     </tr>
     <tr>
-        <td><a href="spec/lightsensor">Light Sensor</a></td>
+        <td><a href="spec/lightsensor.md">Light Sensor</a></td>
         <td>Implemented by devices with light sensor</td>
     
     </tr>
     <tr>
-        <td><a href="spec/motion">Motion</a></td>
+        <td><a href="spec/motion.md">Motion</a></td>
         <td>Motion sensor</td>
     
     </tr>
     <tr>
-        <td><a href="spec/time">Time</a></td>
+        <td><a href="spec/time.md">Time</a></td>
         <td>Current time and timer functionality</td>
     
     </tr>
