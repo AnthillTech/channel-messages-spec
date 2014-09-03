@@ -1,5 +1,3 @@
-Open repository of channel service definitions
-
 #Introduction
 Anthill Technology has developed an open-source communication server software, which facilitates information exchange between web-connected electronic devices. The software, code-named mewa, is available [here](https://github.com/AnthillTech/mewa). Mewa is also the engine of our commercial Internet of Things hosting services ([followit24.com](http://www.followit24.com)).  
 Although the devices communicating through mewa's secure channels infrastructure may use any format of data, there is a clear long-term benefit to the end-users if devices use common language to talk to each other. The benefit is two-fold:  
