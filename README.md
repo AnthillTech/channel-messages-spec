@@ -20,6 +20,7 @@ While there may be hundreds of different services defined, in order for them to 
 3. All devices should implement the *Discovery* service to enable self configuration of applications  
 4. In every communication channel there is at least one provider of the *Lastevent* service  
 5. All service-related data is exchanged between devices in JSON format  
+6. Virtual devices created by channel applications (see Channel applications section) by convention should have names beginning with @
 
 ##Stable definitions
 
@@ -94,6 +95,9 @@ While there may be hundreds of different services defined, in order for them to 
 
 </table>
 
+#Channel applications
+
+Physical devices will typically provide rather simple sensor or actuator services. More sophisticated data processing is best left to server-side applications. Event logging, timing, logic processing are all examples of services that could be provided by special server-apps. These server apps will appear to all other channel-connected parties as virtual devices. In order to be able to tell them from real devices we propose that the virtual devices created by channel apps have names beginning with at character: @
 
 
 
