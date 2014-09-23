@@ -25,9 +25,8 @@ Every device should implement this service. It is used by other channel particip
 >
 >```
 >[
->
->   <service_type>
->   <service_type>
+>   <service_type>,
+>   <service_type>,
 >   ......
 >   <service_type>
 >]
