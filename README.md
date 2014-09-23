@@ -50,7 +50,7 @@ While there may be hundreds of different services defined, in order for them to 
 </table>
 
 
-##In-development definitions
+## In-development definitions
 
 
 <table class="table table-bordered">
@@ -71,6 +71,10 @@ While there may be hundreds of different services defined, in order for them to 
     <tr>
         <td><a href="spec/heartbeat.md">Heartbeat</a></td>
         <td>Implemented by devices which want to periodically send Tick event.</td>
+    </tr>
+    <tr>
+        <td><a href="spec/http.md">HTTP server</a></td>
+        <td>Implemented by devices which are behind NAT and want to expose web server.</td>
     </tr>
     <tr>
         <td><a href="spec/image.md">Image</a></td>
