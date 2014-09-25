@@ -25,8 +25,8 @@ that they are working correctly.
 
 ###Generated events
 
-`Tick`
-> Indicates that device is correctly working
+`org.fi24.heartbeat.Tick`
+> Indicates that device is working correctly
 > 
 > **Event parameters:** None
 
