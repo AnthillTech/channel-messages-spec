@@ -17,10 +17,18 @@ Exposes HTTP server
 > 
 > **Message parameters:**  
 > ```
-> <request_message>
+> {
+>    "path" : <path>
+>    "method" : <request_method>
+>    "headers" : <additional_headers>
+>    "params" : <params>
+> }
 > ```
 >
-> `request_message` - GET or POST request as send to the server
+> `path` - URL path on remote server
+> `method` - GET or POST
+> `headers` - Key, value map with additional headers
+> `params` - Key - value map with request params
 >
 > **Responds with:** `org.fi24.httpServer.response`  
 
@@ -35,10 +43,14 @@ Exposes HTTP server
 > 
 > **Message parameters:**  
 > ```
-> <response_message>
+> {
+>    "headers" : <request_headers>
+>    "body" : <body>
+> }
 > ```
 >
-> `response_message` - Full response message (Headers and body)
+> `headers` - All request headers
+> `body` - Request body
 
 ---
 
