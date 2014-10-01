@@ -43,7 +43,9 @@ None
 >                   "long"  : <longitude>
 >                   "alt"   : <altitude>
 >               }
->}```
+>}
+>```
+>
 > `address` - optional field, specifies street address  
 > `geo` - optional field, specifies geographic coordinates  
 > `street` - strig, street name  
