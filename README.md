@@ -92,6 +92,12 @@ While there may be hundreds of different services defined, in order for them to 
     
     </tr>
 
+    <tr>
+        <td><a href="spec/location.md">Location</a></td>
+        <td>Address and geo location</td>
+    
+    </tr>
+
 
 </table>
 
