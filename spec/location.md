@@ -1,6 +1,6 @@
 #Location service
 
-**Service URI prefix:**    `org.fi24.motion`
+**Service URI prefix:**    `org.fi24.location`
 
 This service is implemented by devices that can report their physical location. Typical use case is for the device to send its location event when it conects to the channel. 
 
@@ -25,7 +25,7 @@ None
 
 ###Generated events
 
-`org.fi24.motion.LocationUpdate`
+`org.fi24.location.LocationUpdate`
 > Indicates that motion was detected by the sensor
 > 
 > **Event parameters:**
@@ -59,5 +59,5 @@ None
 
 ---
 
-*Document revision 0.1*
+*Document revision 0.2*
 
