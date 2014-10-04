@@ -2,11 +2,11 @@
 
 **Service URI prefix:**    `org.fi24.image`
 
-This service will be implemented by cameras which can take still images.
+This service is to be implemented by cameras which can take and provide a still images upon request
 
 
-*service definition ver 0.1*  
-*status: in-development*
+*service definition ver 1.0*  
+*status: stable*
 
 ---
 
@@ -40,5 +40,6 @@ This service will be implemented by cameras which can take still images.
 ---
 
 
-*Document revision 0.1*
+
+*Document revision 1.0*
 

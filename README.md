@@ -46,11 +46,39 @@ While there may be hundreds of different services defined, in order for them to 
         <td><a href="spec/switch.md">Switch</a></td>
         <td>Manual on-off switch. Generates events on state change.</td>
     </tr>
+    <tr>
+        <td><a href="spec/heartbeat.md">Heartbeat</a></td>
+        <td>Implemented by devices which want to periodically send Tick event.</td>
+    </tr>
+    <tr>
+        <td><a href="spec/image.md">Image</a></td>
+        <td>Implemented by cameras which can provide still image.</td>
+    </tr>
+
+
+
+</table>
+
+## Candidate definitions
+
+<table class="table table-bordered">
+    <tr>
+        <th>Service name</th>
+        <th>Description</th>
+    </tr>
+    
+    <tr>
+        <td><a href="spec/location.md">Location</a></td>
+        <td>Address and geo location</td>
+    
+    </tr>
+
 
 </table>
 
 
-## In-development definitions
+
+## Definitions under discussion
 
 
 <table class="table table-bordered">
@@ -68,14 +96,7 @@ While there may be hundreds of different services defined, in order for them to 
         <td>Event logging and retrieval of missed events</td>
     
     </tr>
-    <tr>
-        <td><a href="spec/heartbeat.md">Heartbeat</a></td>
-        <td>Implemented by devices which want to periodically send Tick event.</td>
-    </tr>
-    <tr>
-        <td><a href="spec/image.md">Image</a></td>
-        <td>Implemented by cameras which can provide still image.</td>
-    </tr>
+    
     <tr>
         <td><a href="spec/lightsensor.md">Light Sensor</a></td>
         <td>Implemented by devices with light sensor</td>
@@ -92,11 +113,7 @@ While there may be hundreds of different services defined, in order for them to 
     
     </tr>
 
-    <tr>
-        <td><a href="spec/location.md">Location</a></td>
-        <td>Address and geo location</td>
     
-    </tr>
 
 
 </table>

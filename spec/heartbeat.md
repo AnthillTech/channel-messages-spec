@@ -2,11 +2,10 @@
 
 **Service type URI:**    `org.fi24.heartbeat`
 
-Periodically send Tick event. Implemented by devices which rarely need to send any event but want to inform other devices
-that they are working correctly.  
+Periodically sends Tick event. Implemented by devices which rarely send updates or events, but need to be monitored. By sendig hearbeat event they manifest their presence to the other participants of the channel  
 
-*service definiton ver: 0.1*
-*status: in-development*
+*service definiton ver: 1.0*
+*status: stable*
 
 ---
 
@@ -33,4 +32,4 @@ that they are working correctly.
 
 ---
 
-*Document revision 0.1*
+*Document revision 1.0*
