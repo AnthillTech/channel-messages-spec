@@ -6,7 +6,7 @@ This service stores the last event of a particular event id, reported by a devic
 The purpose of this service is to provide devices and applications that may have intermittent access to the channel with means of finding out about current state of other devices and services.
 
 
-*service definition ver 1.0*  
+*service definition ver 1.1*  
 *status: stable*
 
 ---
@@ -26,11 +26,11 @@ The purpose of this service is to provide devices and applications that may have
 > }
 > ```
 >
-> `device_name ::= string` - *(OPTIONAL)*, name of device whose events are to be retrieved. If parameter is missing all devices are assumed  
+> `device_name ::= string` - name of device whose events are to be retrieved, or asterisk '*' for *all devices*
 >
-> `event_identifier ::= string` - *(OPTIONAL)*, URI string specifying event id of the events to be retrieved. If this parameter is missing all event id's are assumed  
+> `event_identifier ::= string` - URI string specifying event id of the event to be retrieved, or asterisk '*' for *all devices*
 >
-> ** *At least one of the optional parameters must be specified* **  
+> ** At least one of the parameters must be specific (i.e. not be an asterisk) **  
 >
 > **Responds with:** `org.fi24.lastevent.Events`  
 
@@ -44,9 +44,9 @@ The purpose of this service is to provide devices and applications that may have
 > Returns the events requested
 > **Message parameters:**  
 > ```
-> {  
->    "events" : [ <event_struct>* ]  
-> }  
+> [  
+>   <event_struct>*
+> ]
 > event_struct :: =  
 >   {  
 >       "time" : <time_stamp>,  
@@ -66,5 +66,5 @@ The purpose of this service is to provide devices and applications that may have
 
 ---
 
-*Document revision 0.1*
+*Document revision 0.2*
 
