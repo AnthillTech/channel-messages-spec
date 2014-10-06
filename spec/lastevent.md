@@ -26,11 +26,11 @@ The purpose of this service is to provide devices and applications that may have
 > }
 > ```
 >
-> `device_name ::= string` - name of device whose events are to be retrieved, or asterisk '*' for *all devices*
+> `device_name ::= string` - name of device whose events are to be retrieved, or asterisk '\*' for *all devices*
 >
-> `event_identifier ::= string` - URI string specifying event id of the event to be retrieved, or asterisk '*' for *all devices*
+> `event_identifier ::= string` - URI string specifying event id of the event to be retrieved, or asterisk '\*' for *all devices*
 >
-> ** At least one of the parameters must be specific (i.e. not be an asterisk) **  
+> **At least one of the parameters must be specific (i.e. not be an asterisk)**  
 >
 > **Responds with:** `org.fi24.lastevent.Events`  
 
