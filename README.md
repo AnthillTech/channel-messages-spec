@@ -73,7 +73,7 @@ While there may be hundreds of different services defined, in order for them to 
         
 
     <tr>
-        <td><a href="spec/config.md">Location</a></td>
+        <td><a href="spec/config.md">Config</a></td>
         <td>Getting and setting device configuration data</td>
     
     </tr>
