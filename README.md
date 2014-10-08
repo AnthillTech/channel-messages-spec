@@ -77,7 +77,11 @@ While there may be hundreds of different services defined, in order for them to 
         <td>Getting and setting device configuration data</td>
     
     </tr>
-
+    <tr>
+        <td><a href="spec/temperature.md">Temperature</a></td>
+        <td>Reporting value of temperature measured</td>
+    
+    </tr>
 
 </table>
 
