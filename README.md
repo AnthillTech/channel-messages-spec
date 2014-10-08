@@ -54,7 +54,11 @@ While there may be hundreds of different services defined, in order for them to 
         <td><a href="spec/image.md">Image</a></td>
         <td>Implemented by cameras which can provide still image.</td>
     </tr>
-
+    <tr>
+        <td><a href="spec/location.md">Location</a></td>
+        <td>Address and geo location</td>
+    
+    </tr>
 
 
 </table>
@@ -66,10 +70,11 @@ While there may be hundreds of different services defined, in order for them to 
         <th>Service name</th>
         <th>Description</th>
     </tr>
-    
+        
+
     <tr>
-        <td><a href="spec/location.md">Location</a></td>
-        <td>Address and geo location</td>
+        <td><a href="spec/config.md">Location</a></td>
+        <td>Getting and setting device configuration data</td>
     
     </tr>
 
