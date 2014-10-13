@@ -82,6 +82,12 @@ While there may be hundreds of different services defined, in order for them to 
         <td>Reporting value of temperature measured</td>
     
     </tr>
+    <tr>
+        <td><a href="spec/offline.md">OffLine</a></td>
+        <td>For devices that spend most of their time sleeping and off-line, occasionally reporting their events</td>
+    
+    </tr>
+
 
 </table>
 
