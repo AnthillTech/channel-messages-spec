@@ -66,5 +66,5 @@ The purpose of this service is to provide devices and applications that may have
 
 ---
 
-*Document revision 0.2*
+*Document revision 1.2*
 
