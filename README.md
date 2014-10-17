@@ -34,11 +34,6 @@ While there may be hundreds of different services defined, in order for them to 
         <td>This service is strongly recommended to be supported by all devices. It allows other devices to obtain information about types services provided by their peers connected to the same channel.</td>
     </tr>
     <tr>
-        <td><a href="spec/lastevent.md">Lastevent</a></td>
-        <td>Returns details of last event of given type and/or sent from given device. Used by devices that re-connect to the channel, possibly having missed events during off-line time. Also useful for finding out current state of devices that send periodic updates </td>
-    
-    </tr>
-    <tr>
         <td><a href="spec/light.md">Light</a></td>
         <td>Remotely controlled on-off light source</td> 
     </tr>
