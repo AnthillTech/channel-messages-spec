@@ -4,7 +4,7 @@
 
 Two-state switch (on-off). Generates events when changing state and supports current state query.
 
-*service definition ver 1.3*  
+*service definition ver 2.0*  
 *status: stable*
 
 ---
@@ -24,19 +24,22 @@ None
 
 ###Generated events
 
-`org.fi24.switch.SwitchedOn`
-> Indicates that the state of the switch has changed to **on**
-> 
-> **Event parameters:** None
+`org.fi24.switch.Switched`
 
-`org.fi24.switch.SwitchedOff`
-> Indicates that the state of the switch has changed to **off**
+> Reports that the light has switched. The new state is reported as parameter of the event
+>  
+> **Event parameters**
 > 
-> **Event parameters:** None
-
+>```
+>{
+>   "state" : <cur_state>
+>}
+>```
+>
+>`cur_state ::= "on" | "off"` - indicates the current state of the light  
 
 
 ---
 
-*Document revision 0.5*
+*Document revision 2.0*
 

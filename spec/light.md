@@ -4,7 +4,7 @@
 
 Remotely controlles on-off light source.
 
-*service definition version: 1.3*  
+*service definition version: 2.0*  
 *status: stable*
 
 ---
@@ -44,23 +44,23 @@ None
 
 ###Generated events
 
-`org.fi24.light.TurnedOn`
+`org.fi24.light.Switched`
 
-> Reports that the light has been turned on
+> Reports that the light has switched. The new state is reported as parameter of the event
 >  
 > **Event parameters**
 > 
-> None
+>```
+>{
+>   "state" : <cur_state>
+>}
+>```
+>
+>`cur_state ::= "on" | "off"` - indicates the current state of the light  
 
-`org.fi24.light.TurnedOff`
 
-> Reports that the light has been turned off
->  
-> **Event parameters**
-> 
-> None
 
 
 ---
 
-*Document revision 0.7*
+*Document revision 2.0*
