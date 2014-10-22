@@ -78,8 +78,34 @@ While there may be hundreds of different services defined, in order for them to 
     
     </tr>
     <tr>
+        <td><a href="spec/setTemperature.md">SetTemperature</a></td>
+        <td>for setting the set point temperature</td>
+    
+    </tr>
+    <tr>
+        <td><a href="spec/pressure.md">Pressure</a></td>
+        <td>Reporting value of pressure measured</td>
+    
+    </tr>
+    <tr>
+        <td><a href="spec/setPressure.md">SetPressure</a></td>
+        <td>for setting the set point pressure</td>
+    
+    </tr>
+    <tr>
         <td><a href="spec/offline.md">OffLine</a></td>
         <td>For devices that spend most of their time sleeping and off-line, occasionally reporting their events</td>
+    
+    </tr>
+
+    <tr>
+        <td><a href="spec/motion.md">Motion</a></td>
+        <td>Motion sensor</td>
+    
+    </tr>
+    <tr>
+        <td><a href="spec/output-on-off.md">On-off output</a></td>
+        <td>Generic bi-state output</td>
     
     </tr>
 
@@ -110,11 +136,6 @@ While there may be hundreds of different services defined, in order for them to 
     <tr>
         <td><a href="spec/lightsensor.md">Light Sensor</a></td>
         <td>Implemented by devices with light sensor</td>
-    
-    </tr>
-    <tr>
-        <td><a href="spec/motion.md">Motion</a></td>
-        <td>Motion sensor</td>
     
     </tr>
     <tr>

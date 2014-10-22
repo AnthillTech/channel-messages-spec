@@ -36,7 +36,7 @@ None
 >```
 >
 > `temp_value ::= float` - value of the temperature measured by the device  
-> `temp_units ::= C | K | F` - units in which the temperature value is expressed (Celsius degrees, Kelvin, Farenheit degrees)  
+> `temp_units ::= "C" | "K" | "F"` - units in which the temperature value is expressed (Celsius degrees, Kelvin, Farenheit degrees)  
 
 
 ---
