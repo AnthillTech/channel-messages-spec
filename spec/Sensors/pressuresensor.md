@@ -1,6 +1,6 @@
-#Pressure service
+#Pressure sensor service
 
-**Service URI prefix:**    `org.fi24.pressure`  
+**Service URI prefix:**    `org.fi24.pressuresensor`  
 
 This service is implemented by devices that measure and report pressure  
 
@@ -24,7 +24,7 @@ None
 
 ###Generated events
 
-`org.fi24.pressure.PressUpdate`  
+`org.fi24.pressuresensor.Updated`  
 > Event sent by the device to indicate that the value of the pressure measured has changed  
 > 
 > **Event parameters:**   

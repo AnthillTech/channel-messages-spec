@@ -1,6 +1,6 @@
-#Temperature service
+#Temperature sensor service
 
-**Service URI prefix:**    `org.fi24.temperature`  
+**Service URI prefix:**    `org.fi24.temperaturesensor`  
 
 This service is implemented by devices that measure and report temperature  
 
@@ -24,7 +24,7 @@ None
 
 ###Generated events
 
-`org.fi24.temperature.TempUpdate`  
+`org.fi24.temperaturesensor.Updated`  
 > Event sent by the device to indicate that the value of the temperature measured has changed  
 > 
 > **Event parameters:**   

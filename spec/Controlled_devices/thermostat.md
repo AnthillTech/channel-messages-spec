@@ -1,8 +1,8 @@
-#Set temperature service
+#Thermostat service
 
-**Service URI prefix:**    `org.fi24.setTemperature`  
+**Service URI prefix:**    `org.fi24.thermostat`  
 
-This service is implemented by devices that allow the user to specify the set point temperature (e.g. device like thermostats)
+This service is implemented by devices that allow the user to specify the set-point temperature (e.g. device like thermostats)
 
 *service definition ver 0.1*   
 *status: candidate*   
@@ -11,7 +11,7 @@ This service is implemented by devices that allow the user to specify the set po
 
 ###Accepted command messages
 
-`org.fi24.setTemperature.Set`  
+`org.fi24.thermostat.Set`  
 > Sets the new set point temperature for the device
 > 
 > **Message parameters:**   
@@ -25,14 +25,14 @@ This service is implemented by devices that allow the user to specify the set po
 > `temp_value ::= float` - value of the temperature set point accepted by the device  
 > `temp_units ::= "C" | "K" | "F"` - units in which the temperature value is expressed (Celsius degrees, Kelvin, Farenheit degrees)  
 
->**Possible responses:** `org.fi24.setTemperature.ValueError`
+>**Possible responses:** `org.fi24.thermostat.ValueError`
 
 ---
 
 
 ###Returned response messages
 
-`org.fi24.setTemperature.ValueError`  
+`org.fi24.thermostat.ValueError`  
 > Indicates that the device rejected the request to set new temperature set point due to new value being out of range or expressed in unsupported units
 > 
 > **Message parameters:**   
@@ -54,7 +54,7 @@ This service is implemented by devices that allow the user to specify the set po
 
 ###Generated events
 
-`org.fi24.setTemperature.TempSet`  
+`org.fi24.thermostat.SetpointValueSet`  
 > Event sent by the device to indicate that it accepted the new set point. The value of the new set point is sent as parameters
 > 
 > **Event parameters:**   
