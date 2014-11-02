@@ -30,7 +30,7 @@ None
 > **Event parameters:**
 >```
 >{
->   "active" : <detection_state>
+>   "active" : <input_state>
 >}
 >```
 >

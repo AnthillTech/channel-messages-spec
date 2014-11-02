@@ -152,9 +152,25 @@ While there may be hundreds of different services defined, in order for them to 
     
     </tr>
 
-        <tr>
+    <tr>
         <td><a href="spec/Detectors/lowbattery.md">Low battery detector</a></td>
         <td>Detects battery charge falling below pre-set threshold</td>
+    
+    </tr>
+    
+    <tr>
+        <td><a href="spec/Detectors/codetector.md">Carbon monoxide detector</a></td>
+        <td>Detects presence of carbon monoxide in the protected are</td>
+    
+    </tr>
+    <tr>
+        <td><a href="spec/Detectors/firedetector.md">Fire detector</a></td>
+        <td>Indicates presence of fire-related phenomena</td>
+    
+    </tr>
+    <tr>
+        <td><a href="spec/Detectors/gasdetector.md">Gas detector</a></td>
+        <td>Indicates detecion of combustible gas release in the protected area</td>
     
     </tr>
 
@@ -171,6 +187,12 @@ While there may be hundreds of different services defined, in order for them to 
         <td>Manually operated control knob providing % value corresponding to its position</td>
     </tr>
 
+    <tr>
+        <td><a href="spec/Manual_input_devices/firecallpoint.md">Fire call point</a></td>
+        <td>Manually operated fire call point</td>
+    </tr>
+    
+    
     <!--  =============== CONTROLLED DEVICES ======================= -->
     <tr><td colspan=2 bgcolor=A0A0A0><b>Controlled devices</b>&nbsp;-&nbsp; <i>Devices whose state or mode can be remotely set</td></tr>
 

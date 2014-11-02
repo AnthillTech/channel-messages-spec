@@ -2,7 +2,7 @@
 
 **Service URI prefix:**    `org.fi24.firecallpoint`
 
-Manually operated fire call point. Generates event when activated. Does not generate an event when restored to normal condition. An application receiving the activation event from this service is expected to latch the indication of fire call point activation until explicitly re-set by the user of the application. 
+Manually operated fire call point. Generates event when activated. Does not generate an event when restored to normal condition. 
 
 *service definition ver 0.1*  
 *status: candidate*

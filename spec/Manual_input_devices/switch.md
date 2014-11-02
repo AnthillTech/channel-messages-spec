@@ -2,7 +2,7 @@
 
 **Service URI prefix:**    `org.fi24.switch`
 
-Two-state switch (on-off). Generates events when changing state and supports current state query.
+Two-state switch (on-off). Generates events when changing state. May also be implemented by a momentary push-button
 
 *service definition ver 2.0*  
 *status: stable*
@@ -26,7 +26,7 @@ None
 
 `org.fi24.switch.Switched`
 
-> Reports that the light has switched. The new state is reported as parameter of the event
+> Reports that the switch has been manually operated. The new state is reported as parameter of the event
 >  
 > **Event parameters**
 > 
@@ -36,10 +36,10 @@ None
 >}
 >```
 >
->`cur_state ::= "on" | "off"` - indicates the current state of the light  
+>`cur_state ::= "on" | "off"` - indicates the current state of the switch
 
 
 ---
 
-*Document revision 2.0*
+*Document revision 2.1*
 
