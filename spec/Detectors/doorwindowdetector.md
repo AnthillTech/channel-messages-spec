@@ -1,6 +1,6 @@
-#Door detector service
+#Door-window detector service
 
-**Service URI prefix:**    `org.fi24.doordetector`
+**Service URI prefix:**    `org.fi24.doorwindowdetector`
 
 This service is implemented by devices that detect whether door, gate, window, etc. is open
 
@@ -24,7 +24,7 @@ None
 
 ###Generated events
 
-`org.fi24.doordetector.Updated`
+`org.fi24.doorwindowdetector.Updated`
 > Report new state of the door being protected
 > 
 > **Event parameters:**
