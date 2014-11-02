@@ -130,7 +130,7 @@ While there may be hundreds of different services defined, in order for them to 
     
     </tr>
         <tr>
-        <td><a href="spec/Detectors/doordetector.md">Door detector</a></td>
+        <td><a href="spec/Detectors/doorwindowdetector.md">Door-window detector</a></td>
         <td>Detects whether door, gate, window, etc. is open </td>
     
     </tr>
