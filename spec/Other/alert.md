@@ -23,7 +23,8 @@ This service is used to deliver information about critical events taking place i
 >```
 >{
 >   "id" : <alert_id>
->}```
+>}
+>```
 >
 >`alert_id ::= string` - identifier of the alert being acknowledged.
 >
