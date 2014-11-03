@@ -278,6 +278,11 @@ While there may be hundreds of different services defined, in order for them to 
         <td>For devices that spend most of their time sleeping and off-line, occasionally reporting their events</td>
     
     </tr>
+    <tr>
+        <td><a href="spec/Other/alert.md">Alert</a></td>
+        <td>Used to generate alerts and alarms. Typically used by applications, rather than individual devices</td>
+    
+    </tr>
 
 
 
