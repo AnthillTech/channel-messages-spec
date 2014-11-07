@@ -25,7 +25,7 @@ None
 ###Generated events
 
 `org.fi24.input.Updated`
-> Report new state of the door being protected
+> Report new state of input
 > 
 > **Event parameters:**
 >```
