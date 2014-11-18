@@ -1,6 +1,6 @@
 #Tank level detector service
 
-**Service URI prefix:**    `org.fi24.floodingdetector`
+**Service URI prefix:**    `org.fi24.tankleveldetector`
 
 Detects whether the level of mass in the tank exceeds pre-set thresholds. May be used to both signal low or high levels.
 
