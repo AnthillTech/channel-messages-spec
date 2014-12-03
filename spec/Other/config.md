@@ -4,7 +4,7 @@
 
 Allows for setting and retrieval of the device configuration (programming) data  
 
-*service definition version: 0.1*   
+*service definition version: 0.2*   
 *status: candidate*   
 
 ---
@@ -19,11 +19,9 @@ Allows for setting and retrieval of the device configuration (programming) data
 >
 >```
 >{
->   "rev" : <config_data_revision>
 >   "config" : <config_data>
 >}
 >```
->`config_data_revision ::= string` - arbitrary revision designator of the configuration data being sent to device in this command  
 >`config_data ::= string` - new configuration data for the device. May be of any arbitrary format, but it is encouraged to encode your programming set as a JSON structure  
 >
 >
@@ -54,12 +52,10 @@ Allows for setting and retrieval of the device configuration (programming) data
 >
 >```
 >{
->   "rev" : <config_data_revision>
 >   "config" : <config_data>
 >}
 >```
->`config_data_revision ::= string` - arbitrary revision designator of the configuration data being sent to device in this command  
->`config_data ::= string` - new configuration data for the device. May be of any arbitrary format, but it is encouraged to encode your programming set as a JSON structure  
+>`config_data ::= string` - configuration data for the device  
 >
 
 ---
@@ -98,14 +94,9 @@ Allows for setting and retrieval of the device configuration (programming) data
 
 > Announces that the configuration of the device has been successfully updated  
 >  
-> **Event parameters**   
->``` 
->{
->   "rev" : <config_data_revision>
->}
->```
->`config_data_revision ::= string` - arbitrary revision designator of the most recent configuration data sent to device  
+> **Event parameters**: None  
+>  
 
 ---
 
-*Document revision 0.1*
+*Document revision 0.2*
